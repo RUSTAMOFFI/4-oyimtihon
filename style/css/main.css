@@ -1,0 +1,194 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header {
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.33);
+}
+#header .hey .container .search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#header .hey .container .search input {
+  outline: none;
+  width: 670px;
+  height: 45px;
+  padding-left: 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(128, 128, 128, 0.229);
+}
+#header .salom h5 {
+  padding-left: 30%;
+}
+
+.showcase {
+  display: flex;
+}
+.showcase .modaljoy {
+  width: 350px;
+  min-height: 100vh;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.297);
+}
+.showcase .modaljoy .container {
+  width: 300px;
+}
+.showcase .modaljoy .container h2 {
+  padding-top: 2rem;
+  font-weight: 400;
+}
+.showcase .modaljoy .booksmarcs .bookcard {
+  margin-top: 1rem;
+  width: 270px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F8FAFD;
+}
+.showcase .modaljoy .booksmarcs .bookcard .portion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.showcase .modaljoy .booksmarcs .bookcard .portion h4 {
+  font-size: 19px;
+}
+.showcase .modaljoy .booksmarcs .bookcard .portion-2 {
+  display: flex;
+  gap: 0.5rem;
+}
+.showcase .cards .urabttuvchi .kard {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 450px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.222);
+  padding: 1rem;
+}
+.showcase .cards .urabttuvchi .kard h3 {
+  font-size: 17px;
+  width: 260px;
+}
+.showcase .cards .urabttuvchi .kard .imgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcase .cards .urabttuvchi .kard .buttons {
+  justify-content: space-between;
+  display: flex;
+}
+.showcase .cards .urabttuvchi .kard .buttons button {
+  margin-top: -14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 34px;
+  border: none;
+  font-size: 19px;
+  font-weight: 500;
+}
+.showcase .cards .urabttuvchi .kard .buttons .mark {
+  background-color: #FFD80D;
+  border-radius: 4px;
+}
+.showcase .cards .urabttuvchi .kard .buttons .moreinfo {
+  background-color: rgba(13, 117, 255, 0.05);
+  border-radius: 4px;
+  color: #0D75FF;
+}
+.showcase .cards .urabttuvchi .kard .read {
+  height: 36px;
+  border-radius: 4px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+}
+.showcase .cards .urabttuvchi .kard .read a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.modaltim {
+  width: 600px;
+  height: 100vh;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 0.4s;
+  z-index: 1;
+  bottom: 1px;
+  overflow: scroll;
+}
+.modaltim .about {
+  padding: 0 2rem;
+}
+.modaltim .about .totop {
+  color: black;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(13, 118, 255, 0.6235294118);
+}
+.modaltim .about .totop i {
+  font-size: 20px;
+}
+.modaltim .about .tobottom {
+  margin-top: 2.5rem;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.modaltim .about .tobottom .imgdiv {
+  width: 300px;
+  height: 400px;
+}
+.modaltim .about .tobottom .imgdiv img {
+  height: 100%;
+  width: 100%;
+}
+.modaltim .about .tobottom .hammasi {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+.modaltim .about .tobottom .hammasi p {
+  margin-top: 0.5rem;
+}
+
+.kir {
+  transform: translateX(100%);
+  transition: 0.3s;
+}
+
+.ochil {
+  transition: 0.4s;
+  transform: translateX(0);
+}
+
+.modaloynasi {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.564);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}/*# sourceMappingURL=main.css.map */

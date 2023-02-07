@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .login {
+  width: 300px;
+}
+.container .login input {
+  margin-top: 20px;
+  width: 300px;
+  padding: 15px;
+  background: transparent;
+  border: white 1px solid;
+  border-radius: 10px;
+  color: white;
+}
+.container .login button {
+  width: 300px;
+  padding: 15px;
+  color: rgb(13, 117, 255);
+  font-size: 1rem;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.container .login li {
+  list-style: none;
+  text-align: end;
+}
+.container .login a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=login.css.map */

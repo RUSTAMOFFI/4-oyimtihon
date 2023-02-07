@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  margin: auto;
+  width: 1300px;
+}
+.container button {
+  border-radius: 4px;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .qidirish {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+.navbar input {
+  padding: 15px;
+  border: none;
+  width: 85%;
+  border-radius: 15px;
+}
+.navbar button {
+  padding: 15px;
+  color: white;
+  background: #0d75ff;
+  font-size: 1rem;
+}
+
+.content {
+  display: flex;
+}
+.content i {
+  display: none;
+}
+.content .bookmarks {
+  margin-top: 100px;
+  width: 260px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.text {
+  width: 1040px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.cards {
+  width: 320px;
+  max-height: 460px;
+  padding: 2rem;
+  margin-top: 100px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.cards img {
+  margin-bottom: 40px;
+  margin-left: 60px;
+}
+.cards h2 {
+  font-size: 1.2rem;
+}
+.cards p {
+  color: grey;
+}
+.cards .s1 {
+  font-size: 0.8rem;
+}
+.cards button {
+  font-size: 1rem;
+  padding: 13px;
+}
+.cards .bookmark {
+  background: #ffd80d;
+  width: 120px;
+}
+.cards .moreinfo {
+  background: rgba(72, 135, 218, 0.05);
+  color: #0d75ff;
+  width: 120px;
+}
+.cards .read {
+  margin-top: 15px;
+  color: white;
+  width: 100%;
+  background: #75828a;
+}
+
+.infomore {
+  padding: 2rem;
+  justify-content: space-between;
+  width: 35%;
+  min-height: 100vh;
+  background-color: greenyellow;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: 0.6s all;
+  bottom: 100px;
+  overflow: scroll;
+  display: none;
+}
+
+.fit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 1040px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .container .navbar .qidirish {
+    width: 47%;
+  }
+  .container .fit {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container .bookmarks {
+    transform: translateY(-70%);
+  }
+  .text {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .bookmarks {
+    display: none;
+  }
+  .results {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 415px;
+  }
+  .container .navbar {
+    flex-wrap: wrap;
+  }
+  .container .navbar .logo {
+    text-align: center;
+    margin: auto;
+  }
+  .container .navbar .logo .qidirish {
+    background-color: black;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=book.css.map */
